@@ -1,1 +1,3 @@
 # TransIST
+Aiming at the problem of unobvious target shape and weak signal of infrared weak small target, the system adopts Transformer Block with Multi-scale Attention (MSDA) to improve the model's ability to capture small features, and innovantly applies side window filtering (SWF) technology to pre-process infrared images to reduce noise interference and enhance target signal. Aiming at the problem of training fluctuation caused by the rapid movement of small targets, Exponential Moving Average (EMA) method was used to smooth the training curve to enhance the ability of robust tracking of small targets. Through a large number of experiments on the NIR data set, the final accuracy rate is 77.1% and the success rate is 48.9%
+![pic1](./pic/pic1.png)
