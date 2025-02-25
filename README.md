@@ -28,7 +28,7 @@ have been tested on Ubuntu 18.04 system and 2080Ti GPU.
     pip install shapely==1.6.4.post2
     ```  
 * Setup the environment                                                                                                 
-Create the default environment setting files.It is generally recommended to construct the **lasot** dataset format.
+Create the default environment setting files.
 
 
     ```bash
@@ -58,12 +58,12 @@ Open ~/.bashrc, and add the following line to the end. Note to change <path_of_T
     cd ltr
     python run_training.py transist transist
     ```  
-
+* Here you need to modify the number of training iterations depending on your dataset, and here the results may fluctuate, not necessarily in a smooth upward and downward trend. Here I determined the final number of rounds to be 120 after trying from 115 to 135 rounds based on my dataset.
 #### Evaluation
 
 * We integrated [PySOT](https://github.com/STVIR/pysot) for evaluation. You can download json files in [PySOT](https://github.com/STVIR/pysot) 
     
-    You need to specify the path of the model and dataset in the [test.py](pysot_toolkit/test.py).
+    You need to specify the path of the model and dataset in the [test.py](pysot_toolkit/test.py).It is generally recommended to construct the **lasot** dataset format.
     ```python
     net_path = '/path_to_model' #Absolute path of the model
     dataset_root= '/path_to_datasets' #Absolute path of the datasets
