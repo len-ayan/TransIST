@@ -60,7 +60,7 @@ Open ~/.bashrc, and add the following line to the end. Note to change <path_of_T
 
 #### Evaluation
 
-* We integrated [PySOT](https://github.com/STVIR/pysot) for evaluation. You can download json files in [PySOT](https://github.com/STVIR/pysot) or [here](https://drive.google.com/file/d/1PItNIOkui0iGCRglgsZPZF1-hkmj7vyv/view?usp=sharing).
+* We integrated [PySOT](https://github.com/STVIR/pysot) for evaluation. You can download json files in [PySOT](https://github.com/STVIR/pysot) 
     
     You need to specify the path of the model and dataset in the [test.py](pysot_toolkit/test.py).
     ```python
