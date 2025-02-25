@@ -28,7 +28,8 @@ have been tested on Ubuntu 18.04 system and 2080Ti GPU.
     pip install shapely==1.6.4.post2
     ```  
 * Setup the environment                                                                                                 
-Create the default environment setting files.
+Create the default environment setting files.It is generally recommended to construct the **lasot** dataset format.
+
 
     ```bash
     # Change directory to <PATH_of_Transist>
