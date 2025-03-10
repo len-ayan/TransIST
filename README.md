@@ -50,6 +50,10 @@ Open ~/.bashrc, and add the following line to the end. Note to change <path_of_T
 
 
 ## Quick Start
+#### Dataset
+We used the test part of this dataset for testing and the train part of this dataset and other infrared target datasets for training. This dataset is an important part of the data for this experiment.You can download the dataset in [A dataset of semi-synthetic detection for small infrared moving targets under complex backgrounds](https://www.scidb.cn/en/detail?dataSetId=808025946870251520).
+**Please note that we recommend converting the dataset to lasot format for experiments.**
+
 #### Traning
 * Modify [local.py](ltr/admin/local.py) to set the paths to datasets, results paths etc.
 * Runing the following commands to train the Transist. You can customize some parameters by modifying [transt.py](ltr/train_settings/transt/transt.py)
